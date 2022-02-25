@@ -1,0 +1,243 @@
+/****************
+ GENERAL
+****************/
+body {
+  font-family: 'Montserrat Alternates';
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+
+/*****************
+HEADER
+*****************/
+header {
+  text-align: center;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Major Mono Display';
+  font-size: 3.95em;
+  font-weight: bold;
+  line-height: 0.8em;
+  margin: 15px auto 25px;
+}
+
+h2 {
+  font-size: 1.75em;
+  font-weight: normal;
+  margin: 10px 0 0;
+  padding: 10px auto;
+}
+
+
+/***************
+NAVIGATION
+***************/
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 10px 0 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 5px 5px;
+  font-size: 1.25em;
+}
+
+nav a.selected, nav a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
+
+
+/***************
+FOOTER
+***************/
+footer {
+  font-size: 0.9em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px -10px;
+}
+
+
+/***************
+PAGE: HOME
+***************/
+#logo {
+  float: right;
+  max-width: 200px;
+  max-height: 200px;
+  margin: 0 10px 0 0;
+}
+
+#box {
+  margin: 5px 0;
+  padding: 5px;
+}
+
+
+/***************
+PAGE: ABOUT
+***************/
+#gallery {
+  margin: 30px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  margin: 5px 2.5%;
+  clear: both;
+}
+
+#odd img {
+  max-width: 200px;
+  max-height: 1500px;
+  float: right;
+  border-radius: 100px;
+  margin: 0 0 50px 10px;
+}
+
+#odd p {
+  text-align: left;
+}
+
+#even img {
+  max-width: 200px;
+  max-height: 150px;
+  float: left;
+  border-radius: 100px;
+  margin: 0 10px 50px 0;
+}
+
+#even p {
+  text-align: right;
+}
+
+
+/***************
+PAGE: CONTACT
+***************/
+#left {
+  width: 50%;
+  float: left;
+}
+
+#right {
+  width: 40%;
+  float: right;
+}
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+  background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a {
+  background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a {
+  background-image: url('../img/black-and-white-twitter-logo-transparent-100736-st-2467.png');
+}
+
+.contact-info li.facebook a {
+  background-image: url('../img/b-facebook.png');
+}
+
+
+/***************
+COLORS
+***************/
+body {
+  background-color: #fff;
+  color: #000;
+}
+
+header {
+  background-color: #f00;
+  border-bottom-color: #999;
+}
+
+h1 {
+  color: #fff;
+}
+
+h2 {
+  background-color: #fff;
+  color: #f00;
+}
+
+a{
+  color: #f00;
+}
+
+nav a, nav a:visited {
+  color: #fff;
+}
+
+nav a.selected, nav a:hover {
+  color: #fff;
+  text-decoration-color: #fff;
+}
+
+#box {
+  background-color: #f00;
+  color: #fff;
+}
+
+footer {
+  color: #f00;
+}

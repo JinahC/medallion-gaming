@@ -1,0 +1,149 @@
+@media screen and (max-width: 479px) {
+
+  /****************
+  PAGE: HOME
+  ****************/
+
+  #logo {
+    display: block;
+    margin: 0 25% 20px;
+  }
+
+  #center {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+
+  /****************
+  PAGE: ABOUT
+  ****************/
+
+  #gallery li img {
+    max-width: 300px;
+    max-height: 250px;
+    float: none;
+    margin: 20px 11% 0;
+  }
+
+  #gallery li p {
+    text-align: center;
+  }
+
+
+  /****************
+  PAGE: CONTACT
+  ****************/
+
+  #left, #right {
+    float: left;
+    width: 100%;
+  }
+
+}
+
+@media screen and (min-width: 660px) {
+
+  /****************
+  HEADER
+  ****************/
+
+  header {
+    font-family: 'Major Mono Display';
+    height: 235px;
+    background-color: #f00;
+  }
+
+  h1 {
+    float: left;
+    text-align: left;
+    margin:15px auto 0 1%;
+    width: 425px;
+
+  }
+
+  h2 {
+    text-transform: uppercase;
+    font-family: 'Major Mono Display';
+    font-size: 3.95em;
+    font-weight: bold;
+    line-height: 0.8em;
+    float: left;
+    margin: 0 auto 0 0;
+    padding-top: 5px;
+  }
+
+  nav {
+    font-size: 3em;
+    float: right;
+    font-size: 1.125em;
+    margin: 15px 1%  0 290px;
+    text-align: left;
+  }
+
+
+  /****************
+  PAGE: HOME
+  ****************/
+
+  #logo {
+    max-height: 145px;
+    float: left;
+    margin: 0 20px 0 0;
+  }
+
+
+  /****************
+  PAGE: ABOUT
+  ****************/
+
+  #gallery {
+    margin-top: 15px;
+  }
+
+  #gallery li {
+    display: inline-block;
+    width: 27.3333%;
+    margin: 2.5%
+  }
+
+  #odd img, #even img {
+    margin: 0 0 15px 0;
+    max-width: 100%;
+    max-height: 65%;
+    border-radius: 50px
+  }
+
+  #odd p, #even p {
+    text-align: center;
+  }
+
+}
+
+@media screen and (min-width: 766px) {
+
+  /****************
+  HEADER
+  ****************/
+
+  header {
+    height: 185px;
+  }
+
+}
+
+@media screen and (min-width: 1186px) {
+
+  /****************
+  HEADER
+  ****************/
+header {
+  height: 140px;
+}
+
+  h2 {
+    margin: 15px auto 0 0;
+    padding: 0;
+  }
+
+}
